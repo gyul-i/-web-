@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 150%;
+    border:ridge white; /* Параметры рамки */      
+    padding: 10px; /* Поля */
+    color: #fff; /* Цвет текста */    
+    min-height: 40px; /* Минимальная высота */
+    background-color:powderblue;
+
+}
+
+#e {
+    background-clip:unset;
+    background-color:skyblue;
+
+}
