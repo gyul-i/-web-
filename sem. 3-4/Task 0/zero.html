@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="zadacha1.css">
+        <title>задача 0</title>
+
+    </head>
+    <body id='e'>
+        
+        <nav class="navbar navbar-expand-lg navbar-dark " style="background-color:#1e1e1e;">
+            <div class="container-fluid" >
+              <a class="navbar-brand" href="#" id="nn">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" style="align-content: center;">
+                <img class="d-block w-70" src="https://for-your-beauty.ru/wp-content/uploads/2020/08/146996939818428944.jpg" alt="1 slide" height="800">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="https://w-dog.ru/wallpapers/10/16/494280995087362/altaj-osen-utro-dobroe-utro.jpg" alt="2 slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="https://mota.ru/upload/wallpapers/source/2017/02/20/08/03/52040/mota.ru_2017022011.jpg" alt="3 slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="https://s.mediasole.ru/images/626/626573/1.jpg" alt="4 slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-70" src="https://s.fishki.net/upload/users/2019/03/12/302103/a711783d2de9281e665247a0b8a7f8c8.jpg" alt="5 slide">
+              </div>
+            </div>          
+          </div>
+
+        <div class="col-md-8 offset-md-2 rounder">
+        <div class="container p-3 my-3" style="background-color:rgb(43, 43, 43); align-content: center;">
+            <h6>Как прошел твой день?</h6>
+            <div id="cl">
+           
+                <form>
+                    <p><b>ФИО</b></p>
+                    <input type="text" name="" id="">
+                </form>
+
+                <form>
+                    <p><b>email</b></p>
+                    <input type="email" name="" id="">
+                </form>
+        
+
+                <form>
+                    <p><b>Твой уровень счастья</b></p>
+                    <input type="number" name="" id="">
+                </form>
+
+                <form action="handler.php">
+                    <p><b>Сегодня был дождь? </b></p>
+                    <p><input type="radio" name="answer" value="a1">да<Br>
+                    <input type="radio" name="answer" value="a2">нет<Br>
+                    <input type="radio" name="answer" value="a3">иногда</p>
+            
+         
+
+                <form>
+                    <p><b> Ваши любимые цвета </b></p>
+                    <input type="checkbox" name="" id=""> красный<Br>
+                    <input type="checkbox" name="" id=""> фиолетовый<Br>
+                    <input type="checkbox" name="" id=""> зеленый<Br>
+                    <input type="checkbox" name="" id=""> синий
+
+                <p>Ваше мнение по поводу этого опроса<Br>
+                    <textarea name="comment" cols="40" rows="3"></textarea></p>
+                <p><input type="submit" value="Отправить">
+                    <input type="reset" value="Очистить"></p>
+                </form>
+          </div>
+        </div>
+      </div>
+
+    </body>
+</html>                     
