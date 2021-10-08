@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 150%;
+    /*border:ridge white;   */  
+    padding: 10px; /* Поля */
+    color: #fff; /* Цвет текста */    
+    min-height: 40px; /* Минимальная высота */
+    background-color: gray;
+
+}
+h6{
+    text-align: center;
+    font-size: 150%;
+}
+
+#e {
+    background-clip:unset;
+    background-color:#141414;
+    color:white
+
+}
+#cl{
+    
+    text-align: center;
+}
+
+.data #carouselExampleIndicators{
+    padding: 5%;
+}
+
+.carousel-inner{
+    padding: 5%;
+}
