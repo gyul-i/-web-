@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="xo.css">
+        <title>крестики нолики</title>
+        
+    </head>
+    <body>
+        <script src="scripts/xo.js" type="text/javascript">
+        </script>
+
+        <table class="center"> 
+            <tr>
+                <td><button id="id_1" onclick="b1()" class="block"></button></td> <!--при нажатие на кнопку вызывается функция в js-->
+                <td><button id="id_2" onclick="b2()" class="block"></button></td>
+                <td><button id="id_3" onclick="b3()" class="block"></button></td>
+            </tr>
+            <tr>
+                <td><button id="id_4" onclick="b4()" class="block"></button></td>
+                <td><button id="id_5" onclick="b5()" class="block"></button></td>
+                <td><button id="id_6" onclick="b6()" class="block"></button></td>
+            </tr>
+            <tr>
+                <td><button id="id_7" onclick="b7()" class="block"></button></td>
+                <td><button id="id_8" onclick="b8()" class="block"></button></td>
+                <td><button id="id_9" onclick="b9()" class="block"></button></td>
+            </tr>
+        </table>
+        <div id='rezult' style="color: white;"></div>
+
+        <h2>Правила:</h2>
+        <h3>Игроки по очереди ставят на свободные клетки поля 3×3 знаки (один всегда крестики, другой всегда нолики). Первый, выстроивший в ряд 3 своих фигуры по вертикали, горизонтали или диагонали, выигрывает. Первый ход делает игрок, ставящий крестики.
+
+Обычно по завершении партии выигравшая сторона зачёркивает чертой свои три знака (нолика или крестика), составляющих сплошной ряд.</h3>
+       
+    </body>
+
+</html>
